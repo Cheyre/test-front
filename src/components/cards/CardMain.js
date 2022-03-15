@@ -42,7 +42,7 @@ export default function CardMain({
         <Card.Header className={headerClass ? headerClass : ""}>
           <Nav variant={nav.variant}>
             {nav.items.map((item, index) => (
-              <Nav.Item key={item.name} key={index}>
+              <Nav.Item key={item.name}>
                 <Nav.Link
                   href={item.link}
                   active={item.active}
